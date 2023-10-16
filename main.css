@@ -1,0 +1,79 @@
+.Keyboard{
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.ScreenContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Screen1{
+    margin: 10px auto;
+    resize: none;
+    width: 90%;
+    height: 95%;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.Screen1:focus {
+    outline: none;
+  }
+
+.Screen2{
+    margin: 10px auto;
+    resize: none;
+    width: 90%;
+    max-height: 10%;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.Screen2:focus {
+    outline: none;
+  }
+
+.CalcBody{
+    display: grid;
+    height: 90vh;
+    width: 70vw;
+    background: rgba(10,14,60,1);
+    background: linear-gradient(180deg, rgba(17,35,108,1) 0%, rgba(10,14,60,1) 85%);
+    border-radius: 8px;
+}
+
+.CButton{
+    border: none;
+    background: rgb(42, 49, 124);
+    color: white;
+    width: 90%;
+    height: 90%;
+    border-radius: 15%;
+    display: block;
+}
+
+.CButtonsSigns{
+    display: block;
+    border: none;
+    width: 90%;
+    height: 90%;
+    background: rgb(19, 24, 78);
+    color: white;
+    border-radius: 20%;
+}
+
+#More{
+    background: none;
+    border: none;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 10%;
+}
