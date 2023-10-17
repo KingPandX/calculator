@@ -45,6 +45,5 @@ ButtonsNumber.forEach((button) => {
         else{
             Screen.value += button.value
         }
-        alert(typeof(eval(button.value)));
     });
 });
