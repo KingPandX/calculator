@@ -12,6 +12,7 @@ Equal.addEventListener('click', () => {
     Result.value = text + " = ";
     text = eval(text);
     Result.value += text;
+    ans = text;
     Screen.value = ""
 })
 
